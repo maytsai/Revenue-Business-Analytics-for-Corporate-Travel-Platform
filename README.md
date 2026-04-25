@@ -9,8 +9,7 @@ Diagnosing a corporate travel platform's booking decline through demand decompos
 
 # 3. Tech Stack & Environment
 
-# 4. How I Used AI as an
-  Enabler
+# 4. How I Used AI as an Enabler
 
 # 5. Analysis Structure
 
