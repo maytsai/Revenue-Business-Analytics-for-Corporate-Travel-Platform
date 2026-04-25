@@ -2,7 +2,8 @@
 Diagnosing a corporate travel platform's booking decline through demand decomposition, loss analysis, revenue  operations, and customer  segmentation. Built with DuckDB &amp; Python, and Claude Code.
 
 # 1. Project Overview
-
+This project is based on a real-world corporate travel transaction dataset. The analysis    
+goes beyond a standard case study to build a structured, end-to-end business investigation into booking volume and revenue decline. It also serves as my first Claude Code project — exploring how AI can augment analytical thinking rather than replace it.
 
 # 2. Data Source
 
