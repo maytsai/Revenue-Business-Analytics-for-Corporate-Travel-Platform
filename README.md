@@ -30,7 +30,7 @@ Role: First-pass analyst — I drove framing, validation, and final insight.
 
 ### Workflow
 
-**Scaffold:** Had Claude Code structure the full analysis (6 sections: Data Overview, Booking Trend, Cancellation) and generate initial charts.
+**Scaffold:** Had Claude Code structure the full analysis (e.g. Data Overview, Booking Trend, Cancellation) and generate initial charts.
 
 **Stress-test:** Cross-checked every output against the raw data instead of accepting it.
 
@@ -40,13 +40,13 @@ Role: First-pass analyst — I drove framing, validation, and final insight.
 
 
 # 5. Analysis Structure
-1. Data Overview & Quality 
-2. Booking Trend (MoM)     
-3. High-Loss Month Booking Deep Dive: July                 
-4. High-Loss Product Deep Dive: Car & Hotel
-5. Revenue Analysis        
-6. User Behavior         
-7. Key Findings & Recommendations   
+  1. Data Overview & Quality 
+  2. Booking Trend (MoM)     
+  3. High-Loss Month Booking Deep Dive: July                 
+  4. High-Loss Product Deep Dive: Car & Hotel
+  5. Revenue Analysis        
+  6. User Behavior         
+  7. Key Findings & Recommendations   
 
 # 6. Key Findings 
 
