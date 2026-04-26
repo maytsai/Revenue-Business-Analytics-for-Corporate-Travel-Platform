@@ -9,15 +9,15 @@ Diagnosing a corporate travel platform's booking decline through demand decompos
 5. [Data Source Overview](#data-source-overview)
 
 
-# 1. Project Overview
+# Project Overview
 This project is based on a real-world corporate travel transaction dataset. The analysis goes beyond a standard case study to build a structured, end-to-end business investigation into booking volume and revenue decline. It also serves as my first Claude Code project, exploring how AI can augment analytical thinking rather than replace it.
 
-# 2. Data Source
+# Data Source
 Based on a proprietary corporate travel transaction dataset from a real-world case study. The raw data is not included in this repository for confidentiality reasons. The dataset covers January–December 2018 across three booking products — Air, Hotel, and Car — with approximately 300,000 transactional records.
 
 Data Quality: Excluded 1 revenue outlier ($100M), 20 invalid travel windows, and 23 duplicate IDs before analysis.
 
-# 3. Tech Stack & Environment
+# Tech Stack & Environment
 
 #### Data Analysis: DuckDB
 - DuckDB is used to run fast, in-process SQL queries directly on the local dataset without needing a database server. It enables efficient aggregation, filtering, and transformation of ~300,000 transactional records, making it well-suited for exploratory analysis in a local environment.  
@@ -32,7 +32,7 @@ Data Quality: Excluded 1 revenue outlier ($100M), 20 invalid travel windows, and
 - Claude Code is used throughout the analysis as an AI-powered thinking partner. Rather than generating analysis autonomously, Claude is used to pressure-test analytical framing, refine recommendation logic, and surface potential blind spots — with all analytical decisions driven by independent judgment.
 
 
-# 4. How I Used AI as an Enabler
+# How I Used AI as an Enabler
 Tool: Claude Code (Anaconda environment)
 
 #### Workflow
@@ -45,28 +45,7 @@ Tool: Claude Code (Anaconda environment)
 
 **Extend:** Built a deeper monthly and product-type investigation that Claude didn't surface.
 
-
-# 5. Analysis Structure
-
-### Data Overview
-#### Goal:
-Get a high-level understanding of the dataset — record counts, date range, product mix, and booking type breakdown.
-
-#### Analysis:
-- Records by product (Air, Hotel, Car)
-- Records by booking type
-- Booking type breakdown by product
-
-  1. Data Overview & Quality 
-  2. Booking Trend (MoM)     
-  3. High-Loss Month Booking Deep Dive: July                 
-  4. High-Loss Product Deep Dive: Car & Hotel
-  5. Revenue Analysis        
-  6. User Behavior         
-  7. Key Findings & Recommendations   
-
-
-# 6. How to Run
+# How to run Claude code on the Anaconda environment
 
 This project was built inside an Anaconda environment, so Claude Code is installed and launched from the Anaconda Terminal.
 
@@ -103,4 +82,29 @@ claude
 
 - Run every command from the **Anaconda Terminal** so Claude Code inherits the active conda environment's Python and packages.
 - If `claude` isn't found after install, restart the terminal or check that npm's global `bin` directory is on your `PATH`.
+
+# Project Structure
+
+Analysis Structure:
+  1. Data Overview & Quality 
+  2. Booking Trend (MoM)     
+  3. High-Loss Month Booking Deep Dive: July                 
+  4. High-Loss Product Deep Dive: Car & Hotel
+  5. Revenue Analysis        
+  6. User Behavior         
+  7. Key Findings & Recommendations   
+
+### Data Overview
+#### Goal:
+Get a high-level understanding of the dataset — record counts, date range, product mix, and booking type breakdown.
+
+#### Analysis:
+- Records by product (Air, Hotel, Car)
+- Records by booking type
+- Booking type breakdown by product
+
+
+
+
+
 
