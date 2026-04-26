@@ -8,6 +8,9 @@ This project is based on a real-world corporate travel transaction dataset. The 
 Based on a proprietary corporate travel transaction dataset from a real-world case study. The raw data is not included in this repository for confidentiality reasons. The dataset covers January–December 2018 across three booking products — Air, Hotel, and Car — with approximately 300,000 transactional records.
 
 # 3. Tech Stack & Environment
+Proprietary corporate travel transaction dataset covering January–December 2018, with ~300,000 records across three products — Air, Hotel, and Car. Key fields include Booking ID, Product, Booking Type, Revenue, Travel Dates, and Traveler ID. Raw data is not included for confidentiality reasons.
+
+Data Quality: Excluded 1 revenue outlier ($100M), 20 invalid travel windows, and 23 duplicate IDs before analysis.
 
 # 4. How I Used AI as an Enabler
 
