@@ -1,5 +1,5 @@
 # Behind-the-Drop-Revenue-Customer-Analytics-for-a-Corporate-Travel-Platform
-Diagnosing a corporate travel platform's booking decline through demand decomposition, loss analysis, revenue  operations, and customer  segmentation. Built with DuckDB &amp; Python, and Claude Code.
+Diagnosing a corporate travel platform's booking decline through demand decomposition, loss analysis, revenue  operations, and customer  segmentation. Built with DuckDB, Python, and Claude Code.
 
 # Table of Content
 1. [Project Overview](#projectoverview)
@@ -25,20 +25,26 @@ Data Quality: Excluded 1 revenue outlier ($100M), 20 invalid travel windows, and
 
 
 # 4. How I Used AI as an Enabler
-  Claude Code was used       
-  throughout this project as
-  a thinking partner, not a  
-  shortcut. Every analytical
-  decision — from how to     
-  frame the July demand
-  collapse, to whether Act   
-  and Investigate
-  recommendations conflicted 
-  — was driven by independent
-   judgment. Claude was used
-  to pressure-test logic,
-  refine structure, and
-  surface blind spots.
+Tool: Claude Code (Anaconda environment)
+Role: First-pass analyst — I drove framing, validation, and final insight.
+
+Workflow
+
+Scaffold: Had Claude Code structure the full analysis (6 sections: Data Overview, Booking Trend, Cancellation, Deep Dive, Revenue, Customer Behavior) and generate initial charts.
+Stress-test: Cross-checked every output against the raw data instead of accepting it.
+Correct: Fixed filter logic, reframed sections, added missing breakdowns.
+Extend: Built a deeper July-anomaly investigation Claude didn't surface.
+
+Division of Labor
+
+| Claude Code did | I did |
+|---|---|
+| Generated analysis scaffold | Defined what success/loss means for the business |
+| Wrote SQL/pandas filters | Validated filters against raw data |
+| Produced initial charts | Caught silent data drops (Car missing) |
+| Drafted recommendations | Reframed weak insights, added Product and Decline month deep dive |
+
+
 # 5. Analysis Structure
 
 # 6. Key Findings 
