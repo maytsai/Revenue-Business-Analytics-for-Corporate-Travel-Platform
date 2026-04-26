@@ -31,8 +31,11 @@ Role: First-pass analyst — I drove framing, validation, and final insight.
 ### Workflow
 
 **Scaffold:** Had Claude Code structure the full analysis (6 sections: Data Overview, Booking Trend, Cancellation) and generate initial charts.
+
 **Stress-test:** Cross-checked every output against the raw data instead of accepting it.
+
 **Modification:** Fixed filter logic, reframed sections, and added missing breakdowns.
+
 **Extend:** Built a deeper monthly and product-type investigation that Claude didn't surface.
 
 
