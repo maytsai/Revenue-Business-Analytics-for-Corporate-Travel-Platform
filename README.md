@@ -32,20 +32,18 @@ Role: First-pass analyst — I drove framing, validation, and final insight.
 
 Scaffold: Had Claude Code structure the full analysis (6 sections: Data Overview, Booking Trend, Cancellation, Deep Dive, Revenue, Customer Behavior) and generate initial charts.
 Stress-test: Cross-checked every output against the raw data instead of accepting it.
-Correct: Fixed filter logic, reframed sections, added missing breakdowns.
-Extend: Built a deeper July-anomaly investigation Claude didn't surface.
-
-### Division of Labor
-
-| Claude Code did | I did |
-|---|---|
-| Generated analysis scaffold | Defined what success/loss means for the business |
-| Wrote SQL/pandas filters | Validated filters against raw data |
-| Produced initial charts | Caught silent data drops (Car missing) |
-| Drafted recommendations | Reframed weak insights, added Product and Decline month deep dive |
+Correct: Fixed filter logic, reframed sections, and added missing breakdowns.
+Extend: Built a deeper monthly and product-type investigation that Claude didn't surface.
 
 
 # 5. Analysis Structure
+1. Data Overview & Quality 
+2. Booking Trend (MoM)     
+3. High-Loss Month Booking Deep Dive: July                 
+4. High-Loss Product Deep Dive: Car & Hotel
+5. Revenue Analysis        
+6. User Behavior         
+7. Key Findings & Recommendations   
 
 # 6. Key Findings 
 
