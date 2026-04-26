@@ -28,7 +28,7 @@ Data Quality: Excluded 1 revenue outlier ($100M), 20 invalid travel windows, and
 Tool: Claude Code (Anaconda environment)
 Role: First-pass analyst — I drove framing, validation, and final insight.
 
-### Workflow
+#### Workflow
 
 **Scaffold:** Had Claude Code structure the full analysis (e.g. Data Overview, Booking Trend, Cancellation) and generate initial charts.
 
