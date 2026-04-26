@@ -1,6 +1,14 @@
 # Behind-the-Drop-Revenue-Customer-Analytics-for-a-Corporate-Travel-Platform
 Diagnosing a corporate travel platform's booking decline through demand decomposition, loss analysis, revenue  operations, and customer  segmentation. Built with DuckDB &amp; Python, and Claude Code.
 
+# Table of Content
+1. [Project Overview](#projectoverview)
+2. [Data Source](#data-source)
+3. [Data Pipeline Architecture](#data-pipeline-architecture)
+4. [Project Structure](#project-structure)
+5. [Data Source Overview](#data-source-overview)
+
+
 # 1. Project Overview
 This project is based on a real-world corporate travel transaction dataset. The analysis goes beyond a standard case study to build a structured, end-to-end business investigation into booking volume and revenue decline. It also serves as my first Claude Code project — exploring how AI can augment analytical thinking rather than replace it.
 
@@ -17,7 +25,20 @@ Data Quality: Excluded 1 revenue outlier ($100M), 20 invalid travel windows, and
 
 
 # 4. How I Used AI as an Enabler
-
+  Claude Code was used       
+  throughout this project as
+  a thinking partner, not a  
+  shortcut. Every analytical
+  decision — from how to     
+  frame the July demand
+  collapse, to whether Act   
+  and Investigate
+  recommendations conflicted 
+  — was driven by independent
+   judgment. Claude was used
+  to pressure-test logic,
+  refine structure, and
+  surface blind spots.
 # 5. Analysis Structure
 
 # 6. Key Findings 
