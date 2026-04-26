@@ -86,9 +86,11 @@ claude
 # Project Structure
 
 Analysis Workflow:
-  1. Data Overview & Quality
+  1. Data Overview & Quality:
+     
      Dataset profile, schema, and the booking-type breakdown by product (Car / Air / Hotel) — the foundation that every later section depends on.
-  2. Booking Trend (MoM)
+  3. Booking Trend (MoM):
+     
      Monthly booking volume and revenue by product. Surfaces the July booking volume decline and the August revenue anomaly.
   5. High-Loss Month Booking Deep Dive: July
      
