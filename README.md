@@ -53,13 +53,13 @@ Role: First-pass analyst — I drove framing, validation, and final insight.
 
 This project was built inside an Anaconda environment, so Claude Code is installed and launched from the Anaconda Terminal.
 
-## Prerequisites
+#### Prerequisites
 
 - Anaconda / Miniconda installed
 - Node.js and `npm` available on your `PATH`
 - An Anthropic API key (or active Claude Code login)
 
-## Setup
+#### Setup
 
 **1. Open the Anaconda Terminal** (not your system's default terminal).
 
@@ -82,7 +82,7 @@ cd your_project_folder
 claude
 ```
 
-## Notes
+#### Notes
 
 - Run every command from the **Anaconda Terminal** so Claude Code inherits the active conda environment's Python and packages.
 - If `claude` isn't found after install, restart the terminal or check that npm's global `bin` directory is on your `PATH`.
