@@ -10,25 +10,10 @@ Based on a proprietary corporate travel transaction dataset from a real-world ca
 Data Quality: Excluded 1 revenue outlier ($100M), 20 invalid travel windows, and 23 duplicate IDs before analysis.
 
 # 3. Tech Stack & Environment
- Tool   │  Purpose   │   
-  ├─────────┼────────────┤   
-  │ DuckDB  │ SQL        │   
-  │         │ analytics  │   
-  ├─────────┼────────────┤   
-  │         │ Data       │   
-  │ Python  │ wrangling  │
-  │         │ & visualiz │
-  │         │ ation      │
-  ├─────────┼────────────┤
-  │ Anacond │ Environmen │
-  │ a       │ t          │
-  │         │ management │
-  ├─────────┼────────────┤
-  │ Claude  │ AI         │ 
-  │ Code    │ thinking   │
-  │         │ partner    │  
-  ├─────────┼────────────
-
+- DuckDB: SQL analytics
+- Python: data wrangling and visualization
+- Anaconda: environment management
+- Claude Code: AI thinking partner
 
 
 # 4. How I Used AI as an Enabler
