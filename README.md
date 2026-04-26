@@ -21,7 +21,6 @@ Data Quality: Excluded 1 revenue outlier ($100M), 20 invalid travel windows, and
 
 #### Data Analysis: DuckDB
 - DuckDB is used to run fast, in-process SQL queries directly on the local dataset without needing a database server. It enables efficient aggregation, filtering, and transformation of ~300,000 transactional records, making it well-suited for exploratory analysis in a local environment.  
-- Python: data wrangling and visualization
 
 #### Data Wrangling & Visualization: Python
 - Python is used to clean, transform, and visualize the data. Libraries such as Pandas handle data preparation and filtering, while Matplotlib and Seaborn are used to generate charts that support the analysis across booking trends, loss patterns, and customer segmentation. 
