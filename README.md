@@ -48,8 +48,48 @@ Role: First-pass analyst — I drove framing, validation, and final insight.
   6. User Behavior         
   7. Key Findings & Recommendations   
 
-# 6. Key Findings 
+# 7. How to Run
+Got it. Here's the cleaned-up version:
+
+---
 
 # 7. How to Run
+
+This project was built inside an Anaconda environment, so Claude Code is installed and launched from the Anaconda Terminal.
+
+## Prerequisites
+
+- Anaconda / Miniconda installed
+- Node.js and `npm` available on your `PATH`
+- An Anthropic API key (or active Claude Code login)
+
+## Setup
+
+**1. Open the Anaconda Terminal** (not your system's default terminal).
+
+**2. Activate your environment:**
+
+```bash
+conda activate your_env_name
+```
+
+**3. Install Claude Code globally:**
+
+```bash
+npm install -g @anthropic-ai/claude-code
+```
+
+**4. Navigate to your project folder and launch Claude:**
+
+```bash
+cd your_project_folder
+claude
+```
+
+## Notes
+
+- Run every command from the **Anaconda Terminal** so Claude Code inherits the active conda environment's Python and packages.
+- If `claude` isn't found after install, restart the terminal or check that npm's global `bin` directory is on your `PATH`.
+
 
 # 8. What I'd Do Next
