@@ -85,14 +85,17 @@ claude
 
 # Project Structure
 
-Analysis Structure:
-  1. Data Overview & Quality 
-  2. Booking Trend (MoM)     
-  3. High-Loss Month Booking Deep Dive: July                 
-  4. High-Loss Product Deep Dive: Car & Hotel
-  5. Revenue Analysis        
-  6. User Behavior         
-  7. Key Findings & Recommendations   
+Analysis Workflow:
+  1. Data Overview & Quality
+     Dataset profile, schema, and the booking-type breakdown by product (Car / Air / Hotel) — the foundation that every later section depends on.
+  2. Booking Trend (MoM)
+     Monthly booking volume and revenue by product. Surfaces the July booking volume decline and the August revenue anomaly.
+  5. High-Loss Month Booking Deep Dive: July
+     
+  7. High-Loss Product Deep Dive: Car & Hotel
+  8. Revenue Analysis        
+  9. User Behavior         
+  10. Key Findings & Recommendations   
 
 ### Data Overview
 #### Goal:
