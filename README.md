@@ -48,10 +48,6 @@ Role: First-pass analyst — I drove framing, validation, and final insight.
   6. User Behavior         
   7. Key Findings & Recommendations   
 
-# 7. How to Run
-Got it. Here's the cleaned-up version:
-
----
 
 # 7. How to Run
 
