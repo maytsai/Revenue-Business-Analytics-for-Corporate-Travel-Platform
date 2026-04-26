@@ -18,15 +18,23 @@ Based on a proprietary corporate travel transaction dataset from a real-world ca
 Data Quality: Excluded 1 revenue outlier ($100M), 20 invalid travel windows, and 23 duplicate IDs before analysis.
 
 # 3. Tech Stack & Environment
-- DuckDB: SQL analytics
+
+#### Data Analysis: DuckDB
+- DuckDB is used to run fast, in-process SQL queries directly on the local dataset without needing a database server. It enables efficient aggregation, filtering, and transformation of ~300,000 transactional records, making it well-suited for exploratory analysis in a local environment.  
 - Python: data wrangling and visualization
-- Anaconda: environment management
-- Claude Code: AI thinking partner
+
+#### Data Wrangling & Visualization: Python
+- Python is used to clean, transform, and visualize the data. Libraries such as Pandas handle data preparation and filtering, while Matplotlib and Seaborn are used to generate charts that support the analysis across booking trends, loss patterns, and customer segmentation. 
+
+#### Environment Management: Anaconda
+- Anaconda is an environment management platform that is used to manage the Python environment, ensuring all dependencies and package versions are consistent and reproducible across sessions.
+
+#### AI Thinking Partner: Claude Code
+- Claude Code is used throughout the analysis as an AI-powered thinking partner. Rather than generating analysis autonomously, Claude is used to pressure-test analytical framing, refine recommendation logic, and surface potential blind spots — with all analytical decisions driven by independent judgment.
 
 
 # 4. How I Used AI as an Enabler
 Tool: Claude Code (Anaconda environment)
-Role: First-pass analyst — I drove framing, validation, and final insight.
 
 #### Workflow
 
@@ -87,5 +95,3 @@ claude
 - Run every command from the **Anaconda Terminal** so Claude Code inherits the active conda environment's Python and packages.
 - If `claude` isn't found after install, restart the terminal or check that npm's global `bin` directory is on your `PATH`.
 
-
-# 8. What I'd Do Next
