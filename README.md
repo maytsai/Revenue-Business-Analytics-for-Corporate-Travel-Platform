@@ -4,9 +4,9 @@ Diagnosing a corporate travel platform's booking decline through demand decompos
 # Table of Content 
   1. [Project Overview](#project-overview)         
   2. [Data Source](#data-source)
-  3. [Tech Stack & Environment Set up](#tech-stack-and-environment-set-up)  
+  3. [Tech Stacks](#tech-stacks)  
   4. [How I Used AI as an Enabler](#how-i-used-ai-as-an-enabler)
-  5. [How to run Claude code on the Anaconda environment](#how-to-run-claude-code-on-the-anaconda-environment)      
+  5. [How to Run Claude Code on the Anaconda Environment](#how-to-run-claude-code-on-the-anaconda-environment)   
   6. [Analysis Workflow](#analysis-workflow)
      
                     
@@ -18,8 +18,7 @@ Based on a proprietary corporate travel transaction dataset from a real-world ca
 
 Data Quality: Excluded 1 revenue outlier ($100M), 20 invalid travel windows, and 23 duplicate IDs before analysis.
 
-# Tech Stack & Environment Set up
-
+# Tech Stacks
 #### Data Analysis: DuckDB
 - DuckDB is used to run fast, in-process SQL queries directly on the local dataset without needing a database server. It enables efficient aggregation, filtering, and transformation of ~300,000 transactional records, making it well-suited for exploratory analysis in a local environment.  
 
