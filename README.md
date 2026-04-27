@@ -7,7 +7,7 @@ Diagnosing a corporate travel platform's booking decline through demand decompos
   3. [TechStack](#tech-stack)      
   4. [How I Used AI as an Enabler](#how-i-used-ai-as-an-enabler)                
   5. [Analysis Workflow](#analysis-workflow)            
-  6. [Project Structure](#project-structure)            
+     
                     
 # Project Overview
 This project is based on a real-world corporate travel transaction dataset. The analysis goes beyond a standard case study to build a structured, end-to-end business investigation into booking volume and revenue decline. It also serves as my first Claude Code project, exploring how AI can augment analytical thinking rather than replace it.
