@@ -97,16 +97,16 @@ claude
   4. High-Loss Product Deep Dive: Car & Hotel
 
       Examines loss patterns for the two highest-loss products. 
-  6. Revenue Analysis
+  5. Revenue Analysis
 
      Translates monthly booking volume into revenue terms — gross revenue, loss amount, and net revenue — to quantify the financial impact of down months and validate whether revenue spikes align with volume gains. 
-  8. User Behavior
-           
-  10. Key Findings & Recommendations   
+  6. User Behavior
 
-
-
-
+     Segments travelers by annual booking frequency (Frequent / Occasional / One-time) to understand who drives revenue, which tiers disappeared in July, and whether August's revenue spike reflects a real demand shift or a statistical artifact.
+  7. Key Findings & Recommendations   
+  
+  Consolidates findings into an Act / Investigate / Watch framework — separating what is actionable now from whay requires further data
+  before intervention.   
 
 
 
