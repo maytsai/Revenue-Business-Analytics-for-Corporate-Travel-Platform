@@ -83,32 +83,34 @@ claude
 - Run every command from the **Anaconda Terminal** so Claude Code inherits the active conda environment's Python and packages.
 - If `claude` isn't found after install, restart the terminal or check that npm's global `bin` directory is on your `PATH`.
 
-# Project Structure
 
-Analysis Workflow:
+# Analysis Workflow:
   1. Data Overview & Quality:
      
      Dataset profile, schema, and the booking-type breakdown by product (Car / Air / Hotel) — the foundation that every later section depends on.
-  3. Booking Trend (MoM):
+  2. Booking Trend (MoM):
      
      Monthly booking volume and revenue by product. Surfaces the July booking volume decline and the August revenue anomaly.
-  5. High-Loss Month Booking Deep Dive: July
-     
-  7. High-Loss Product Deep Dive: Car & Hotel
-  8. Revenue Analysis        
-  9. User Behavior         
+  3. High-Loss Month Booking Deep Dive: July
+
+     Diagnoses whether July's 32% volume drop was driven by a spike in booking losses or a collapse in new demand — two problems that require different interventions. 
+  4. High-Loss Product Deep Dive: Car & Hotel
+
+      Examines loss patterns for the two highest-loss products. 
+  6. Revenue Analysis
+
+     Translates monthly booking volume into revenue terms — gross revenue, loss amount, and net revenue — to quantify the financial impact of down months and validate whether revenue spikes align with volume gains. 
+  8. User Behavior
+           
   10. Key Findings & Recommendations   
 
-### Data Overview
-#### Goal:
-Get a high-level understanding of the dataset — record counts, date range, product mix, and booking type breakdown.
-
-#### Analysis:
-- Records by product (Air, Hotel, Car)
-- Records by booking type
-- Booking type breakdown by product
 
 
+
+
+
+
+# Project Structure
 
 
 
