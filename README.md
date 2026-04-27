@@ -37,13 +37,14 @@ Tool: Claude Code (Anaconda environment)
 
 #### Workflow
 
-**Scaffold:** Had Claude Code structure the full analysis (e.g. Data Overview, Booking Trend, Cancellation) and generate initial charts.
+**Scaffold:**  Worked with Claude Code to brainstorm and structure the full analysis (e.g. Data Overview, Booking Trend,
+  Loss Analysis) and generate initial queries and data visualizations.
 
-**Stress-test:** Cross-checked every output against the raw data instead of accepting it.
+**Stress-test:** Cross-checked every output against the raw data rather than accepting results at face value.
 
-**Modification:** Fixed filter logic, reframed sections, and added missing breakdowns.
+**Modification:** Fixed filter logic, reframed sections, and added missing breakdowns where the output fell short.
 
-**Extend:** Reframe the analysis direction and build a deeper monthly and product-type investigation that Claude didn't surface.
+**Extend:** Redirected the analysis independently, building deeper monthly and product-level investigations that Claude didn't surface on its own.
 
 # How to run Claude code on the Anaconda environment
 
@@ -105,8 +106,8 @@ claude
      Segments travelers by annual booking frequency (Frequent / Occasional / One-time) to understand who drives revenue, which tiers disappeared in July, and whether August's revenue spike reflects a real demand shift or a statistical artifact.
   7. Key Findings & Recommendations   
   
-  Consolidates findings into an Act / Investigate / Watch framework — separating what is actionable now from whay requires further data
-  before intervention.   
+      Consolidates findings into an Act / Investigate / Watch framework — separating what is actionable now from whay requires further data
+      before intervention.   
 
 
 
