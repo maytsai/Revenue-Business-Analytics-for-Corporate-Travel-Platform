@@ -4,7 +4,7 @@ Diagnosing a corporate travel platform's booking decline through demand decompos
 # Table of Content 
   1. [Project Overview](#project-overview)         
   2. [Data Source](#data-source)
-  3. [Tech Stack & Environment Set up](#tech-stack-&-Environment-Set-up)
+  3. [Tech Stack & Environment Set up](#tech-stack-&-environment-set-up)
   4. [How I Used AI as an Enabler](#how-i-used-ai-as-an-enabler)          
   5. [Analysis Workflow](#analysis-workflow)
      
