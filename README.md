@@ -43,7 +43,7 @@ Tool: Claude Code (Anaconda environment)
 
 **Modification:** Fixed filter logic, reframed sections, and added missing breakdowns.
 
-**Extend:** Built a deeper monthly and product-type investigation that Claude didn't surface.
+**Extend:** Reframe the analysis direction and build a deeper monthly and product-type investigation that Claude didn't surface.
 
 # How to run Claude code on the Anaconda environment
 
