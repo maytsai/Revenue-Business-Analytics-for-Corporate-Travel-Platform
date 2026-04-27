@@ -92,10 +92,9 @@ claude
   2. Booking Trend (MoM):
      
      Monthly booking volume and revenue by product. Surfaces the July booking volume decline and the August revenue anomaly.
-  3. High-Loss Month Booking Deep Dive: July
-
+  3. High-Loss Month Booking Deep Dive
      Diagnoses whether July's 32% volume drop was driven by a spike in booking losses or a collapse in new demand: two problems that require different interventions. 
-  4. High-Loss Product Deep Dive: Car & Hotel
+  4. High-Loss Product Deep Dive
 
       Examines loss patterns for the two highest-loss products. 
   5. Revenue Analysis
