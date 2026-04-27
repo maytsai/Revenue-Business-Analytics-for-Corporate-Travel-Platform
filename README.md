@@ -2,11 +2,11 @@
 Diagnosing a corporate travel platform's booking decline through demand decomposition, loss analysis, revenue  operations, and customer  segmentation. Built with DuckDB, Python, and Claude Code.
 
 # Table of Content 
-  1. [Project Overview](#project-overview)              
-  2. [Dataset](#dataset)    
-  3. [TechStack](#tech-stack)      
-  4. [How I Used AI as an Enabler](#how-i-used-ai-as-an-enabler)                
-  5. [Analysis Workflow](#analysis-workflow)            
+  1. [Project Overview](#project-overview)         
+  2. [Data Source](#data-source)
+  3. [TechStack](#tech-stack)
+  4. [How I Used AI as an Enabler](#how-i-used-ai-as-an-enabler)          
+  5. [Analysis Workflow](#analysis-workflow)
      
                     
 # Project Overview
