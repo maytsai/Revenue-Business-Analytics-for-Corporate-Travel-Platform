@@ -172,7 +172,7 @@ Understanding *how* losses occur shapes the right intervention.
 <img width="2189" height="649" alt="download (11)" src="https://github.com/user-attachments/assets/d0fadae0-6a8c-4355-8bd2-d4ea1264c0d9" />
 
 
-
+**Hotel Booking Loss Summary**
 | Booking Type | n      | Pct (%) | Avg Amount ($) |   
 | ------------ | ------ | ------- | -------------- |
 | Refund       | 10,158 | 74.7    | $ 1,145.78     |
