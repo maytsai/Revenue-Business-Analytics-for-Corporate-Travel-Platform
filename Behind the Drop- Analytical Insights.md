@@ -289,7 +289,7 @@ Then break behavior by month to answer two questions: which traveler tiers went 
 - Consistent with a **targeted corporate budget freeze** on non-essential trips
 - Occasional travelers represent a **volume recovery opportunity**
 
-**3. August — Revenue Spike: Real or Artifact? **
+**3. August — Revenue Spike: Real or Artifact?**
 - Composition effect: Frequent traveler avg spiked to 3,961 𝑖𝑛 𝐴𝑢𝑔 𝑣𝑠 1,867 in Jul, but occasional/one-time were normal. Frequent travelers dominating a low-volume month amplify the effect.
 - A few large bookings skewing the mean: August booking median = 801, identical to every other month (757– 816 range). The mean of $ 3,898 is entirely driven by outlier high-value bookings at the top end. Therefore, the August spike is a **statistical artifact, not a pricing or demand shift**. Median tells the true story — a typical August booking was no different from any other month.
 
