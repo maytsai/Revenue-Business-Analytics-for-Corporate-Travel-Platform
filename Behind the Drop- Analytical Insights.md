@@ -95,7 +95,7 @@ Identify when booking volume dropped, which products were affected, and how reve
 - December follows the expected corporate holiday slowdown
 
 
-# 4. High-Loss Booking Deep Dive by month
+# 4. High-Loss Month Booking Deep Dive:
 ### Goal: 
 July is the single largest volume drop month at 32% below baseline. The drop could stem from a spike in booking losses or a collapse in new demand — two problems that require different interventions. Understanding *which* drove July shapes where to act.
 
@@ -129,7 +129,7 @@ July is the single largest volume drop month at 32% below baseline. The drop cou
 - **Hotel losses are 74.7% Refunds** at near-full purchase value — structural policy issue
 
 
-# 5. High-Loss Product Deep Dive by product types
+# 5. High-Loss Product Booking Deep Dive
 ### Goal: 
 Car (16.5%) and Hotel (13.0%) are the two highest-loss products. Each has a distinct workflow:
 
