@@ -104,7 +104,7 @@ July is the single largest volume drop month at 32% below baseline. The drop cou
 <img width="1968" height="643" alt="download (9)" src="https://github.com/user-attachments/assets/c0095ba3-d261-4e6a-9c88-3e80b4d33dd7" />
 
 
-          Monthly Purchases vs Loss Rate
+**Monthly Purchases vs Loss Rate**
 
 | Month   | Purchases | Loss Events | Loss Rate (%) |
 |---------|-----------|-------------|---------------|
@@ -143,8 +143,8 @@ Understanding *how* losses occur shapes the right intervention.
 - Booking Type Distribution
 - Car Cancellations by Lead Time
 - Car Cancellation by Amount
+<img width="2189" height="649" alt="download (10)" src="https://github.com/user-attachments/assets/4b4b6f0d-0d2f-47bc-a6c6-604209e2170f" />
 
-![[download (10).png]]
 **Car: Cancel Lead Time**
 
 | Lead Time | n     | Pct (%) |
@@ -170,7 +170,8 @@ Understanding *how* losses occur shapes the right intervention.
 - Hotel Losses by Lead Time (days from booking to travel start)
 - Hotel Monthly Losses (Cancel + Refund)
 
-![[download (11).png]]
+<img width="2189" height="649" alt="download (11)" src="https://github.com/user-attachments/assets/d0fadae0-6a8c-4355-8bd2-d4ea1264c0d9" />
+
 
 | Booking Type | n      | Pct (%) | Avg Amount ($) |     |
 | ------------ | ------ | ------- | -------------- | --- |
@@ -194,7 +195,8 @@ Translate monthly booking volume into revenue terms — gross revenue, loss amou
 - Gross Revenue vs. Losses
 - Avg Booking Value per Month
 
-![[download (12).png|1096]]
+<img width="2299" height="649" alt="download (12)" src="https://github.com/user-attachments/assets/0f311e08-7b8e-4f2a-b95e-b9944d14ee7c" />
+
 
 **Monthly Revenue Summary**
 
@@ -230,7 +232,7 @@ Then break behavior by month to answer two questions: which traveler tiers went 
 **Traveler Tier Breakdown**
 - Traveler Frequency Segmentation (Frequent / Occasional / One-time)
 - Traveler Share vs. Revenue Share by Tier
-![[Screenshot 2026-04-24 at 12.14.54 AM.png|845]]
+<img width="1256" height="542" alt="Screenshot 2026-04-24 at 12 14 54 AM" src="https://github.com/user-attachments/assets/47277bac-60c0-43a0-a1c2-7a3428318cff" />
 
 **Traveler Tier Summary**
 
@@ -243,7 +245,8 @@ Then break behavior by month to answer two questions: which traveler tiers went 
 
 **July — Traveler Tier Dropout**
 - Active Traveler Drop vs. Baseline by Tier
-![[Screenshot 2026-04-24 at 12.15.26 AM 1.png|450]]
+<img width="626" height="547" alt="Screenshot 2026-04-24 at 12 15 26 AM 1" src="https://github.com/user-attachments/assets/0685e34a-202a-4fb1-a1c6-efb794171777" /><img width="2299" height="672" alt="download (15)" src="https://github.com/user-attachments/assets/386cb4c3-71f7-4878-a894-ff8af236fed2" />
+
 
 | Traveler Tier    | Baseline | July  | Drop (%) |
 | ---------------- | -------- | ----- | -------- |
@@ -256,7 +259,8 @@ Then break behavior by month to answer two questions: which traveler tiers went 
 - Mean vs. Median Booking Value by Month
 - August High-Value Booking Mix — Hypothesis Test
 - Avg Booking Value by Traveler (Monthly)
-![[download (15).png|923]]
+<img width="2299" height="672" alt="download (15)" src="https://github.com/user-attachments/assets/16c875c9-a2c0-44d0-822a-262cc3911bee" />
+
 
 
 **Mean vs Median Booking Volume**
@@ -293,9 +297,6 @@ Then break behavior by month to answer two questions: which traveler tiers went 
 
 
 # Key Findings & Recommendations
----
-## Key Findings & Recommendations
-
 ### Findings
 
 | # | Finding | Impact |
