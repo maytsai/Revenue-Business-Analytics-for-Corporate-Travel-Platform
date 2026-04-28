@@ -249,7 +249,7 @@ Goal: From previous analysis, we can see the revenue spike despite low volume -
 ### Insight
 **July — Demand Collapse, Not a Loss Problem**
 - Net revenue dropped ~27% below average, driven by a 32% demand collapse rather than elevated losses
-Loss amount ($3.85M) was in line with the annual average (~$3.7M) — no loss spike
+- Loss amount ($3.85M) was in line with the annual average (~$3.7M), no loss spike
 - Average booking value held at $1,868, suggesting essential high-value trips survived
 
 **August — Statistical Artifact, Not a Real Spike**
