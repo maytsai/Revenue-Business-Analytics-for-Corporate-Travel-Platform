@@ -68,7 +68,7 @@ Examines loss patterns for the two highest-loss products.
 
 Translates monthly booking volume into revenue terms: gross revenue, loss amount, and net revenue to quantify the financial impact of down months and validate whether revenue spikes align with volume gains. 
 
-### 6. User Behavior:
+### 6. Customer Segmentation & Behavior:
 
 Segments travelers by annual booking frequency (Frequent / Occasional / One-time) to understand who drives revenue, which tiers disappeared in July, and whether August's revenue spike reflects a real demand shift or a statistical artifact.
 
