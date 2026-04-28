@@ -1,7 +1,7 @@
 
 # 1. Data Overview
 
-### Goal:
+### Goal
 Get a high-level understanding of the dataset — record counts, date range, product mix, and booking type breakdown.
 
 ### Analysis:
@@ -95,7 +95,7 @@ Identify when booking volume dropped, which products were affected, and how reve
 - December follows the expected corporate holiday slowdown
 
 
-# 4. High-Loss Month Booking Deep Dive:
+# 4. High-Loss Month Booking Deep Dive
 ### Goal: 
 July is the single largest volume drop month at 32% below baseline. The drop could stem from a spike in booking losses or a collapse in new demand — two problems that require different interventions. Understanding *which* drove July shapes where to act.
 
@@ -214,6 +214,11 @@ Translate monthly booking volume into revenue terms — gross revenue, loss amou
 | 2018-11     | 36,499,801        | 3,558,442     | 33,558,063      |
 | 2018-12     | 22,054,263        | 1,924,274     | 20,463,761      |
 
+July vs. full-year average (excl. July):
+
+Average monthly gross revenue (other 11 months): ~$39.6M
+July gross: $29.4M → down ~26% below average
+July net: $26.2M vs. average ~$36.1M → down ~27%
 
 **August — Revenue Spike: Real or Artifact?**
 - Mean vs. Median Booking Value by Month
@@ -242,10 +247,7 @@ Translate monthly booking volume into revenue terms — gross revenue, loss amou
 
 
 ### Insight
-1. July net revenue dropped sharply
-
-- driven by 32% demand collapse, not a spike in losses
-
+1. July's net revenue dropped sharply, driven by a 32% demand collapse rather than elevated losses — July's loss amount ($3.85M) was in line with the annual average (~$3.7M). Gross revenue fell ~26% below the 11-month average ($29.4M vs. ~$39.6M), with net revenue down ~27% ($26.2M vs. ~$36.1M).
 2. August — Revenue Spike: Real or Artifact?
 - August revenue spiked despite low volume — avg booking value 3,898 vs normal 1,600–1,870 −July avg volume (1,868) slightly above baseline — essential high-value trips survived
 - A few large bookings skew the mean: August booking median = 801, identical to every other month (757– 816 range). Outlier high-value bookings entirely drive the mean of $ 3,898 at the top end. Therefore, the August spike is a **statistical artifact, not a pricing or demand shift**. Median tells the true story — a typical August booking was no different from any other month.
