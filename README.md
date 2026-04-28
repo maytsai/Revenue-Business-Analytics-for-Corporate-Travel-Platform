@@ -58,7 +58,7 @@ Analyzes monthly booking volume and revenue by product, surfacing the booking vo
 
 ### 3. High-Loss Booking Deep Dive by month:
 
-Diagnoses whether July's volume drop was driven by a spike in booking losses or a collapse in new demand: two problems that require different interventions. 
+Diagnoses whether the volume drop was driven by a spike in booking losses or a collapse in new demand: two problems that require different interventions. 
 
 ### 4. High-Loss Booking Deep Dive by product types:
 
