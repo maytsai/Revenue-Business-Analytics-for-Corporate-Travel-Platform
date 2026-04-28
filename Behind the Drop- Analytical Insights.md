@@ -216,9 +216,9 @@ Translate monthly booking volume into revenue terms — gross revenue, loss amou
 
 July vs. full-year average (excl. July):
 
-Average monthly gross revenue (other 11 months): ~$39.6M
-July gross: $29.4M → down ~26% below average
-July net: $26.2M vs. average ~$36.1M → down ~27%
+- Average monthly gross revenue (other 11 months): ~$39.6M
+- July gross: $29.4M → down ~26% below average
+- July net: $26.2M vs. average ~$36.1M → down ~27%
 
 **August — Revenue Spike: Real or Artifact?**
 - Mean vs. Median Booking Value by Month
