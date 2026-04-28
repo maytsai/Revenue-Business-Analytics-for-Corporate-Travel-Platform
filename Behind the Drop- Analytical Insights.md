@@ -173,6 +173,7 @@ Understanding *how* losses occur shapes the right intervention.
 
 
 **Hotel Booking Loss Summary**
+
 | Booking Type | n      | Pct (%) | Avg Amount ($) |   
 | ------------ | ------ | ------- | -------------- |
 | Refund       | 10,158 | 74.7    | $ 1,145.78     |
@@ -282,6 +283,7 @@ Then break behavior by month to answer two questions: which traveler tiers went 
 - Active Traveler Drop vs. Baseline by Tier
 <img width="626" height="547" alt="Screenshot 2026-04-24 at 12 15 26 AM 1" src="https://github.com/user-attachments/assets/0685e34a-202a-4fb1-a1c6-efb794171777" />
 
+**Traveler Tier Summary - July**
 
 | Traveler Tier    | Baseline | July  | Drop (%) |
 | ---------------- | -------- | ----- | -------- |
