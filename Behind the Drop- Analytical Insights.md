@@ -12,7 +12,7 @@ Get a high-level understanding of the dataset — record counts, date range, pro
 <img width="500" height="324" alt="Screenshot 2026-04-20 at 6 18 28 PM" src="https://github.com/user-attachments/assets/e3a594a4-65da-4358-b983-e684707ea403" />
 
 
-#### Booking Type by Product
+### Booking Type by Product
 Air: Purchase / Exchange / Partial Refund / Refund / Void / Cancel
 Car: Cancel / Reserve
 Hotel: Purchase / Reserve / Refund / Cancel
@@ -34,7 +34,7 @@ Hotel: Purchase / Reserve / Refund / Cancel
 ### Insight:
 - Air dominates volume, accounting for the largest share of transactions
 - Purchase is the primary booking type across all products
-- Car has the highest cancellation rate at 16.6%; Hotel shows meaningful refund and cancel activity at ~ 13%. While Air has only 6.7% loss rate.
+- Car has the highest cancellation rate at 16.6%; Hotel shows meaningful refund and cancellation activity at ~ 13%. While Air has only 6.7% loss rate.
 
 # 2. Data Quality Check
 
@@ -48,7 +48,7 @@ Identify nulls, date logic violations, duplicates, revenue outliers, and anomali
 - Duplicate booking IDs — 23 records, risk of double-counting
 
 **Conditional exclusions (depends on analysis type):**
-- Travel start before booking date (3,690 records) — distorts booking date trend analysis
+- Travel starts before the booking date (3,690 records) — distorts booking date trend analysis
 - Zero-amount bookings — exclude for revenue analysis, keep for volume counts
 
 ### Insight:
@@ -56,14 +56,14 @@ Identify nulls, date logic violations, duplicates, revenue outliers, and anomali
 - Booking_Clean dataset is used for all downstream analysis
   
 
-# 3. Booking Trend Overtime (MoM)
+# 3. Booking Trend Over Time (MoM)
 ### Goal: 
 Identify when booking volume dropped, which products were affected, and how revenue tracks with volume.
 
 ### Analysis: 
 - Monthly Booking Volume by product
 - Monthly Revenue by Booking 
-- Month over month booking volume change
+- Month-over-month booking volume change
 
 
 ### Investigation
@@ -91,7 +91,7 @@ Identify when booking volume dropped, which products were affected, and how reve
 ### Insight:
 - July collapsed to **15,131 bookings** — 32% below baseline avg 22,250
 - August low volume driven by price spike, not cancellations
-- December follows expected corporate holiday slowdown
+- December follows the expected corporate holiday slowdown
 
 
 # 4. High-Loss Booking Deep Dive by month
@@ -137,9 +137,9 @@ Car (16.5%) and Hotel (13.0%) are the two highest-loss products. Each has a dist
 
 Understanding *how* losses occur shapes the right intervention.
 
-### 5.1 Car
+## 5.1 Car
 
-#### Analysis
+### Analysis
 - Booking Type Distribution
 - Car Cancellations by Lead Time
 - Car Cancellation by Amount
@@ -155,7 +155,7 @@ Understanding *how* losses occur shapes the right intervention.
 | 8–14 Days | 1,431 | 13.6    |
 | 15+ Days  | 1,771 | 16.9    |
 
-#### Insight
+### Insight
 - Car operates on **Reserve/Cancel only** — no Purchase confirmation step
 - **46% of cancels within 0–3 days** of travel start; same-day = 13.7% (1,436 records)
 - Same-day spike likely reflects **system-expired holds**, not traveler-initiated cancels
@@ -163,9 +163,9 @@ Understanding *how* losses occur shapes the right intervention.
 
 ---
 
-### 5.2 Hotel
+## 5.2 Hotel
 
-#### Analysis
+### Analysis
 - Hotel Losses: Cancel vs. Refund
 - Hotel Losses by Lead Time (days from booking to travel start)
 - Hotel Monthly Losses (Cancel + Refund)
@@ -178,12 +178,12 @@ Understanding *how* losses occur shapes the right intervention.
 | Refund       | 10,158 | 74.7    | $ 1,145.78     |     |
 | Cancel       | 3,445  | 25.3    | $ 1,331.27     |     |
 
-#### Insight
+### Insight
 - **74.7% of Hotel losses are Refunds**, not Cancels — suggesting post-booking adjustments or short-notice reversals rather than pre-trip opt-outs
 - **Cancels avg $1,331 vs Refunds avg $1,146** — cancellations carry 16% higher per-event cost
 - **Refunds cluster in 0–3 days** of travel start (38.6%) — indicative of last-minute reversals or policy-triggered refunds after check-in
 - Monthly pattern mirrors overall volume: losses drop proportionally in Jul/Aug/Dec, not disproportionately elevated — Hotel loss rate is a structural, year-round issue
-- **Opportunity**: distinguishing penalty-free cancels from refund-triggering events could reduce the 74.7% refund share through stricter booking policies
+- **Opportunity**: Distinguishing penalty-free cancellations from refund-triggering events could reduce the 74.7% refund share through stricter booking policies
 
 # 6. Revenue Analysis
 
@@ -282,17 +282,16 @@ Then break behavior by month to answer two questions: which traveler tiers went 
 
 ### Insight
 
-**Traveler Tier Breakdown:**
+**1. Traveler Tier Breakdown:**
 - **Frequent travelers (10+) drive 96.3% of revenue** — 64% of travelers, nearly all the money
 
-**July — Traveler Tier Dropout:**
+**2. July — Traveler Tier Dropout:**
 - **July hit the periphery**: Occasional (−39.1%) and One-time (−42.9%) dropped ~3x harder than Frequent (−13.0%)
 - Consistent with a **targeted corporate budget freeze** on non-essential trips
 - Occasional travelers represent a **volume recovery opportunity**
 
-
-**August — Revenue Spike: Real or Artifact?:**
-- Composition effect: Frequent traveler avg spiked to 3,961 𝑖𝑛 𝐴𝑢𝑔 𝑣𝑠 1,867 in Jul, but occasional/one-time were normal. Frequent travelers dominating a low-volume month amplifies the effect.
+**3. August — Revenue Spike: Real or Artifact? **
+- Composition effect: Frequent traveler avg spiked to 3,961 𝑖𝑛 𝐴𝑢𝑔 𝑣𝑠 1,867 in Jul, but occasional/one-time were normal. Frequent travelers dominating a low-volume month amplify the effect.
 - A few large bookings skewing the mean: August booking median = 801, identical to every other month (757– 816 range). The mean of $ 3,898 is entirely driven by outlier high-value bookings at the top end. Therefore, the August spike is a **statistical artifact, not a pricing or demand shift**. Median tells the true story — a typical August booking was no different from any other month.
 
 
