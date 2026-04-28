@@ -1,5 +1,5 @@
 
-# Data Overview
+# 1. Data Overview
 
 ### Goal:
 Get a high-level understanding of the dataset — record counts, date range, product mix, and booking type breakdown.
@@ -36,7 +36,7 @@ Hotel: Purchase / Reserve / Refund / Cancel
 - Purchase is the primary booking type across all products
 - Car has the highest cancellation rate at 16.6%; Hotel shows meaningful refund and cancel activity at ~ 13%. While Air has only 6.7% loss rate.
 
-# Data Quality Check
+# 2. Data Quality Check
 
 ### Goal:
 Identify nulls, date logic violations, duplicates, revenue outliers, and anomalies — then remove invalid records to create a clean dataset for all downstream analysis.
@@ -56,7 +56,7 @@ Identify nulls, date logic violations, duplicates, revenue outliers, and anomali
 - Booking_Clean dataset is used for all downstream analysis
   
 
-# Booking Trend Overtime (MoM)
+# 3. Booking Trend Overtime (MoM)
 ### Goal: 
 Identify when booking volume dropped, which products were affected, and how revenue tracks with volume.
 
@@ -94,7 +94,7 @@ Identify when booking volume dropped, which products were affected, and how reve
 - December follows expected corporate holiday slowdown
 
 
-# High-Loss Booking Deep Dive by month
+# 4. High-Loss Booking Deep Dive by month
 ### Goal: 
 July is the single largest volume drop month at 32% below baseline. The drop could stem from a spike in booking losses or a collapse in new demand — two problems that require different interventions. Understanding *which* drove July shapes where to act.
 
@@ -128,7 +128,7 @@ July is the single largest volume drop month at 32% below baseline. The drop cou
 - **Hotel losses are 74.7% Refunds** at near-full purchase value — structural policy issue
 
 
-# High-Loss Product Deep Dive by product
+# 5. High-Loss Product Deep Dive by product types
 ### Goal: 
 Car (16.5%) and Hotel (13.0%) are the two highest-loss products. Each has a distinct workflow:
 
@@ -137,7 +137,7 @@ Car (16.5%) and Hotel (13.0%) are the two highest-loss products. Each has a dist
 
 Understanding *how* losses occur shapes the right intervention.
 
-### 4.1 Car
+### 5.1 Car
 
 #### Analysis
 - Booking Type Distribution
@@ -163,7 +163,7 @@ Understanding *how* losses occur shapes the right intervention.
 
 ---
 
-### 4.2 Hotel
+### 5.2 Hotel
 
 #### Analysis
 - Hotel Losses: Cancel vs. Refund
@@ -185,7 +185,7 @@ Understanding *how* losses occur shapes the right intervention.
 - Monthly pattern mirrors overall volume: losses drop proportionally in Jul/Aug/Dec, not disproportionately elevated — Hotel loss rate is a structural, year-round issue
 - **Opportunity**: distinguishing penalty-free cancels from refund-triggering events could reduce the 74.7% refund share through stricter booking policies
 
-# Revenue Analysis
+# 6. Revenue Analysis
 
 ### Goal: 
 Translate monthly booking volume into revenue terms — gross revenue, loss amount, and net revenue. Quantify how much was lost in down months and validate whether revenue spikes align with volume gains.
@@ -219,7 +219,7 @@ Translate monthly booking volume into revenue terms — gross revenue, loss amou
 - August revenue spiked despite low volume — avg booking value 3,898 vs normal 1,600–1,870 −July avg volume (1,868) slightly above baseline — essential high-value trips survived
 
 
-# Customer Behavior
+# 7. Customer Behavior
 ### Goal:
 Understand who is driving platform activity by segmenting travelers into frequency tiers based on annual trip count:
 
