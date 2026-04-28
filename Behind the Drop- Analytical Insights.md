@@ -9,7 +9,8 @@ Get a high-level understanding of the dataset — record counts, date range, pro
 - Records by booking type
 - Booking type breakdown by product
 
-![[Screenshot 2026-04-20 at 6.18.28 PM.png|736]]
+<img width="500" height="324" alt="Screenshot 2026-04-20 at 6 18 28 PM" src="https://github.com/user-attachments/assets/e3a594a4-65da-4358-b983-e684707ea403" />
+
 
 #### Booking Type by Product
 Air: Purchase / Exchange / Partial Refund / Refund / Void / Cancel
