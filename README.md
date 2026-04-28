@@ -56,11 +56,11 @@ Dataset profile, schema, and the booking-type breakdown by product (Car / Air / 
 
 Analyzes monthly booking volume and revenue by product, surfacing the booking volume decline and revenue anomaly.
 
-### 3. High-Loss Booking Deep Dive by month:
+### 3. High-Loss Month Booking Deep Dive:
 
 Diagnoses whether the volume drop was driven by a spike in booking losses or a collapse in new demand: two problems that require different interventions. 
 
-### 4. High-Loss Booking Deep Dive by product types:
+### 4. High-Loss Product Booking Deep Dive:
 
 Examines loss patterns for the two highest-loss products. 
 
