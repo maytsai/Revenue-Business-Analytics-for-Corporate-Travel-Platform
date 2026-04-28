@@ -213,9 +213,42 @@ Translate monthly booking volume into revenue terms — gross revenue, loss amou
 | 2018-10     | 43,360,916        | 4,479,059     | 39,530,099      |
 | 2018-11     | 36,499,801        | 3,558,442     | 33,558,063      |
 | 2018-12     | 22,054,263        | 1,924,274     | 20,463,761      |
+
+
+**August — Revenue Spike: Real or Artifact?**
+- Mean vs. Median Booking Value by Month
+- August High-Value Booking Mix — Hypothesis Test
+- Avg Booking Value by Traveler (Monthly)
+<img width="2299" height="672" alt="download (15)" src="https://github.com/user-attachments/assets/16c875c9-a2c0-44d0-822a-262cc3911bee" />
+
+
+
+**Mean vs Median Booking Volume**
+
+| Month       | Mean      | Median  | P90       |
+| ----------- | --------- | ------- | --------- |
+| 2018-01     | 1,610     | 757     | 3,426     |
+| 2018-02     | 1,678     | 760     | 3,497     |
+| 2018-03     | 1,692     | 797     | 3,600     |
+| 2018-04     | 1,713     | 791     | 3,558     |
+| 2018-05     | 1,700     | 809     | 3,493     |
+| 2018-06     | 1,722     | 816     | 3,602     |
+| **2018-07** | **1,868** | **825** | **3,772** |
+| **2018-08** | **3,898** | **801** | **3,613** |
+| 2018-09     | 1,691     | 801     | 3,602     |
+| 2018-10     | 1,783     | 804     | 3,640     |
+| 2018-11     | 1,658     | 786     | 3,444     |
+| 2018-12     | 1,690     | 745     | 3,471     |
+
+
 ### Insight
-- July net revenue dropped sharply — driven by 32% demand collapse, not a spike in losses
+1. July net revenue dropped sharply
+— driven by 32% demand collapse, not a spike in losses
+
+2. August — Revenue Spike: Real or Artifact?**
 - August revenue spiked despite low volume — avg booking value 3,898 vs normal 1,600–1,870 −July avg volume (1,868) slightly above baseline — essential high-value trips survived
+- Composition effect: Frequent traveler avg spiked to 3,961 𝑖𝑛 𝐴𝑢𝑔 𝑣𝑠 1,867 in Jul, but occasional/one-time were normal. Frequent travelers dominating a low-volume month amplify the effect.
+- A few large bookings skew the mean: August booking median = 801, identical to every other month (757– 816 range). The mean of $ 3,898 is entirely driven by outlier high-value bookings at the top end. Therefore, the August spike is a **statistical artifact, not a pricing or demand shift**. Median tells the true story — a typical August booking was no different from any other month.
 
 
 # 7. Customer Segmentation & Behavior
@@ -244,7 +277,7 @@ Then break behavior by month to answer two questions: which traveler tiers went 
 
 **July — Traveler Tier Dropout**
 - Active Traveler Drop vs. Baseline by Tier
-<img width="626" height="547" alt="Screenshot 2026-04-24 at 12 15 26 AM 1" src="https://github.com/user-attachments/assets/0685e34a-202a-4fb1-a1c6-efb794171777" /><img width="2299" height="672" alt="download (15)" src="https://github.com/user-attachments/assets/386cb4c3-71f7-4878-a894-ff8af236fed2" />
+<img width="626" height="547" alt="Screenshot 2026-04-24 at 12 15 26 AM 1" src="https://github.com/user-attachments/assets/0685e34a-202a-4fb1-a1c6-efb794171777" />
 
 
 | Traveler Tier    | Baseline | July  | Drop (%) |
@@ -253,31 +286,6 @@ Then break behavior by month to answer two questions: which traveler tiers went 
 | Occasional (3–9) | 429      | 261   | -39.1    |
 | One-time (1–2)   | 105      | 60    | -42.9    |
 
-
-**August — Revenue Spike: Real or Artifact?**
-- Mean vs. Median Booking Value by Month
-- August High-Value Booking Mix — Hypothesis Test
-- Avg Booking Value by Traveler (Monthly)
-<img width="2299" height="672" alt="download (15)" src="https://github.com/user-attachments/assets/16c875c9-a2c0-44d0-822a-262cc3911bee" />
-
-
-
-**Mean vs Median Booking Volume**
-
-| Month       | Mean      | Median  | P90       |
-| ----------- | --------- | ------- | --------- |
-| 2018-01     | 1,610     | 757     | 3,426     |
-| 2018-02     | 1,678     | 760     | 3,497     |
-| 2018-03     | 1,692     | 797     | 3,600     |
-| 2018-04     | 1,713     | 791     | 3,558     |
-| 2018-05     | 1,700     | 809     | 3,493     |
-| 2018-06     | 1,722     | 816     | 3,602     |
-| **2018-07** | **1,868** | **825** | **3,772** |
-| **2018-08** | **3,898** | **801** | **3,613** |
-| 2018-09     | 1,691     | 801     | 3,602     |
-| 2018-10     | 1,783     | 804     | 3,640     |
-| 2018-11     | 1,658     | 786     | 3,444     |
-| 2018-12     | 1,690     | 745     | 3,471     |
 
 ### Insight
 
@@ -288,10 +296,6 @@ Then break behavior by month to answer two questions: which traveler tiers went 
 - **July hit the periphery**: Occasional (−39.1%) and One-time (−42.9%) dropped ~3x harder than Frequent (−13.0%)
 - Consistent with a **targeted corporate budget freeze** on non-essential trips
 - Occasional travelers represent a **volume recovery opportunity**
-
-**3. August — Revenue Spike: Real or Artifact?**
-- Composition effect: Frequent traveler avg spiked to 3,961 𝑖𝑛 𝐴𝑢𝑔 𝑣𝑠 1,867 in Jul, but occasional/one-time were normal. Frequent travelers dominating a low-volume month amplify the effect.
-- A few large bookings skewing the mean: August booking median = 801, identical to every other month (757– 816 range). The mean of $ 3,898 is entirely driven by outlier high-value bookings at the top end. Therefore, the August spike is a **statistical artifact, not a pricing or demand shift**. Median tells the true story — a typical August booking was no different from any other month.
 
 
 # Key Findings & Recommendations
