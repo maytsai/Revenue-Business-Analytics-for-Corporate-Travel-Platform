@@ -248,8 +248,9 @@ Translate monthly booking volume into revenue terms — gross revenue, loss amou
 
 2. August — Revenue Spike: Real or Artifact?
 - August revenue spiked despite low volume — avg booking value 3,898 vs normal 1,600–1,870 −July avg volume (1,868) slightly above baseline — essential high-value trips survived
-- Composition effect: Frequent traveler avg spiked to 3,961 𝑖𝑛 𝐴𝑢𝑔 𝑣𝑠 1,867 in Jul, but occasional/one-time were normal. Frequent travelers dominating a low-volume month amplify the effect.
-- A few large bookings skew the mean: August booking median = 801, identical to every other month (757– 816 range). The mean of $ 3,898 is entirely driven by outlier high-value bookings at the top end. Therefore, the August spike is a **statistical artifact, not a pricing or demand shift**. Median tells the true story — a typical August booking was no different from any other month.
+- A few large bookings skew the mean: August booking median = 801, identical to every other month (757– 816 range). Outlier high-value bookings entirely drive the mean of $ 3,898 at the top end. Therefore, the August spike is a **statistical artifact, not a pricing or demand shift**. Median tells the true story — a typical August booking was no different from any other month.
+
+
 
 
 # 7. Customer Segmentation & Behavior
