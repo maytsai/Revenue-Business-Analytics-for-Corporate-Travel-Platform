@@ -70,6 +70,7 @@ Identify when booking volume dropped, which products were affected, and how reve
 <img width="1000" height="325" alt="Screenshot 2026-04-23 at 1 00 01 AM" src="https://github.com/user-attachments/assets/6d91e2a2-60a3-4818-bdec-94d9b9b9d11d" />
 
 
+
 **Monthly Volume & MoM Change**
 
 | Month   | Total Bookings | MoM Change (%) |
