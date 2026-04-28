@@ -86,30 +86,30 @@ claude
 
 
 # Analysis Workflow:
-**1. Data Overview & Quality:**
+#### 1. Data Overview & Quality:
 
 Dataset profile, schema, and the booking-type breakdown by product (Car / Air / Hotel) — the foundation that every later section depends on.
 
-**2. Booking Trend (MoM):**
+#### 2. Booking Trend (MoM):
 
 Monthly booking volume and revenue by product. Surfaces the July booking volume decline and the August revenue anomaly.
 
-**3. High-Loss Month Booking Deep Dive:**
+#### 3. High-Loss Month Booking Deep Dive:
 
 Diagnoses whether July's 32% volume drop was driven by a spike in booking losses or a collapse in new demand: two problems that require different interventions. 
 
-**4. High-Loss Product Deep Dive:**
+#### 4. High-Loss Product Deep Dive:
 
 Examines loss patterns for the two highest-loss products. 
 
-**5. Revenue Analysis:**
+#### 5. Revenue Analysis:
 
 Translates monthly booking volume into revenue terms: gross revenue, loss amount, and net revenue to quantify the financial impact of down months and validate whether revenue spikes align with volume gains. 
 
-**6. User Behavior:**
+#### 6. User Behavior:
 
 Segments travelers by annual booking frequency (Frequent / Occasional / One-time) to understand who drives revenue, which tiers disappeared in July, and whether August's revenue spike reflects a real demand shift or a statistical artifact.
 
-**7. Key Findings & Recommendations:** 
+#### 7. Key Findings & Recommendations:
 
 Consolidates findings into an Act / Investigate / Watch framework, separating what is actionable now from what requires further data before intervention. 
