@@ -218,7 +218,7 @@ Translate monthly booking volume into revenue terms — gross revenue, loss amou
 - August revenue spiked despite low volume — avg booking value 3,898 vs normal 1,600–1,870 −July avg volume (1,868) slightly above baseline — essential high-value trips survived
 
 
-# 7. Customer Behavior
+# 7. Customer Segmentation & Behavior
 ### Goal:
 Understand who is driving platform activity by segmenting travelers into frequency tiers based on annual trip count:
 
