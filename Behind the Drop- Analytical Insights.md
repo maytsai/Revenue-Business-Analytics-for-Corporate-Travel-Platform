@@ -94,7 +94,7 @@ Identify when booking volume dropped, which products were affected, and how reve
 - December follows expected corporate holiday slowdown
 
 
-# Section 3. High-Loss Booking Deep Dive: July
+# High-Loss Booking Deep Dive by month
 ### Goal: 
 July is the single largest volume drop month at 32% below baseline. The drop could stem from a spike in booking losses or a collapse in new demand — two problems that require different interventions. Understanding *which* drove July shapes where to act.
 
@@ -128,7 +128,7 @@ July is the single largest volume drop month at 32% below baseline. The drop cou
 - **Hotel losses are 74.7% Refunds** at near-full purchase value — structural policy issue
 
 
-# Section 4. High-Loss Product Deep Dive: Car & Hotel
+# High-Loss Product Deep Dive by product
 ### Goal: 
 Car (16.5%) and Hotel (13.0%) are the two highest-loss products. Each has a distinct workflow:
 
@@ -185,7 +185,7 @@ Understanding *how* losses occur shapes the right intervention.
 - Monthly pattern mirrors overall volume: losses drop proportionally in Jul/Aug/Dec, not disproportionately elevated — Hotel loss rate is a structural, year-round issue
 - **Opportunity**: distinguishing penalty-free cancels from refund-triggering events could reduce the 74.7% refund share through stricter booking policies
 
-# Section 5: Revenue Analysis
+# Revenue Analysis
 
 ### Goal: 
 Translate monthly booking volume into revenue terms — gross revenue, loss amount, and net revenue. Quantify how much was lost in down months and validate whether revenue spikes align with volume gains.
@@ -219,7 +219,7 @@ Translate monthly booking volume into revenue terms — gross revenue, loss amou
 - August revenue spiked despite low volume — avg booking value 3,898 vs normal 1,600–1,870 −July avg volume (1,868) slightly above baseline — essential high-value trips survived
 
 
-# Section 6: Customer Behavior
+# Customer Behavior
 ### Goal:
 Understand who is driving platform activity by segmenting travelers into frequency tiers based on annual trip count:
 
