@@ -161,8 +161,6 @@ Understanding *how* losses occur shapes the right intervention.
 - Same-day spike likely reflects **system-expired holds**, not traveler-initiated cancels
 - **99.4% carry real dollar amounts** — genuine financial exposure on every cancel
 
----
-
 ## 5.2 Hotel
 
 ### Analysis
