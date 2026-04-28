@@ -36,8 +36,6 @@ Hotel: Purchase / Reserve / Refund / Cancel
 - Purchase is the primary booking type across all products
 - Car has the highest cancellation rate at 16.6%; Hotel shows meaningful refund and cancel activity at ~ 13%. While Air has only 6.7% loss rate.
 
----
-
 # Data Quality Check
 
 ### Goal:
@@ -56,8 +54,7 @@ Identify nulls, date logic violations, duplicates, revenue outliers, and anomali
 ### Insight:
 - Exclusions are minimal and well-defined; data quality is largely sound
 - Booking_Clean dataset is used for all downstream analysis
-
----
+  
 
 # Booking Trend Overtime (MoM)
 ### Goal: 
@@ -70,7 +67,8 @@ Identify when booking volume dropped, which products were affected, and how reve
 
 
 ### Investigation
-![[Screenshot 2026-04-23 at 1.00.01 AM.png]]
+<img width="1000" height="325" alt="Screenshot 2026-04-23 at 1 00 01 AM" src="https://github.com/user-attachments/assets/6d91e2a2-60a3-4818-bdec-94d9b9b9d11d" />
+
 
 **Monthly Volume & MoM Change**
 
@@ -103,9 +101,10 @@ July is the single largest volume drop month at 32% below baseline. The drop cou
 ### Analysis
 - Purchases vs. Loss Rate - July Highlighted
 - July Loss Events: Intended Travel month
-![[download (9).png]]
+<img width="1968" height="643" alt="download (9)" src="https://github.com/user-attachments/assets/c0095ba3-d261-4e6a-9c88-3e80b4d33dd7" />
 
-Monthly Purchases vs Loss Rate
+
+          Monthly Purchases vs Loss Rate
 
 | Month   | Purchases | Loss Events | Loss Rate (%) |
 |---------|-----------|-------------|---------------|
