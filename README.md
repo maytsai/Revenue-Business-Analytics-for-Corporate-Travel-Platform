@@ -54,13 +54,13 @@ Dataset profile, schema, and the booking-type breakdown by product (Car / Air / 
 
 ### 2. Booking Trend (MoM):
 
-Monthly booking volume and revenue by product. Surfaces the July booking volume decline and the August revenue anomaly.
+Analyzes monthly booking volume and revenue by product, surfacing the booking volume decline and revenue anomaly.
 
-### 3. High-Loss Month Booking Deep Dive:
+### 3. High-Loss Booking Deep Dive by month:
 
-Diagnoses whether July's 32% volume drop was driven by a spike in booking losses or a collapse in new demand: two problems that require different interventions. 
+Diagnoses whether July's volume drop was driven by a spike in booking losses or a collapse in new demand: two problems that require different interventions. 
 
-### 4. High-Loss Product Deep Dive:
+### 4. High-Loss Booking Deep Dive by product types:
 
 Examines loss patterns for the two highest-loss products. 
 
