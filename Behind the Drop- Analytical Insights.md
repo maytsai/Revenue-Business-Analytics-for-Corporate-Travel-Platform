@@ -247,10 +247,15 @@ Goal: From previous analysis, we can see the revenue spike despite low volume -
 
 
 ### Insight
-1. July's net revenue dropped sharply, driven by a 32% demand collapse rather than elevated losses — July's loss amount ($3.85M) was in line with the annual average (~$3.7M). Gross revenue fell ~26% below the 11-month average ($29.4M vs. ~$39.6M), with net revenue down ~27% ($26.2M vs. ~$36.1M).
-2. August — Revenue Spike: Real or Artifact?
-- August revenue spiked despite low volume — avg booking value 3,898 vs normal 1,600–1,870 −July avg volume (1,868) slightly above baseline — essential high-value trips survived
-- A few large bookings skew the mean: August booking median = 801, identical to every other month (757– 816 range). Outlier high-value bookings entirely drive the mean of $ 3,898 at the top end. Therefore, the August spike is a **statistical artifact, not a pricing or demand shift**. Median tells the true story — a typical August booking was no different from any other month.
+**July — Demand Collapse, Not a Loss Problem**
+- Net revenue dropped ~27% below average, driven by a 32% demand collapse rather than elevated losses
+Loss amount ($3.85M) was in line with the annual average (~$3.7M) — no loss spike
+- Average booking value held at $1,868, suggesting essential high-value trips survived
+
+**August — Statistical Artifact, Not a Real Spike**
+- Revenue spiked despite low volume — avg booking value $3,898 vs. normal $1,600–$1,870
+- Median booking value: $801, identical to every other month ($757–$816 range)
+- The spike is driven by outliers, not a real demand or pricing shift
 
 
 
