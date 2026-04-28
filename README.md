@@ -110,6 +110,6 @@ Translates monthly booking volume into revenue terms: gross revenue, loss amount
 
 Segments travelers by annual booking frequency (Frequent / Occasional / One-time) to understand who drives revenue, which tiers disappeared in July, and whether August's revenue spike reflects a real demand shift or a statistical artifact.
 
-**7. Key Findings & Recommendations  ** 
+**7. Key Findings & Recommendations:** 
 
 Consolidates findings into an Act / Investigate / Watch framework, separating what is actionable now from what requires further data before intervention. 
