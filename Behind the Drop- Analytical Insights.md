@@ -215,13 +215,11 @@ Translate monthly booking volume into revenue terms — gross revenue, loss amou
 | 2018-11     | 36,499,801        | 3,558,442     | 33,558,063      |
 | 2018-12     | 22,054,263        | 1,924,274     | 20,463,761      |
 
-July vs. full-year average (excl. July):
 
-- Average monthly gross revenue (other 11 months): ~$39.6M
-- July gross: $29.4M → down ~26% below average
-- July net: $26.2M vs. average ~$36.1M → down ~27%
+## 6.1 August — Revenue Spike: Real or Artifact?
+Goal: From previous analysis, we can see the revenue spike despite low volume - average booking value 3,898 vs normal 1,600–1,870 (on avg)
 
-**August — Revenue Spike: Real or Artifact?**
+### Analysis:
 - Mean vs. Median Booking Value by Month
 - August High-Value Booking Mix — Hypothesis Test
 - Avg Booking Value by Traveler (Monthly)
