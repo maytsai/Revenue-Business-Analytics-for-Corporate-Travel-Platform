@@ -173,10 +173,10 @@ Understanding *how* losses occur shapes the right intervention.
 
 
 
-| Booking Type | n      | Pct (%) | Avg Amount ($) |     |
-| ------------ | ------ | ------- | -------------- | --- |
-| Refund       | 10,158 | 74.7    | $ 1,145.78     |     |
-| Cancel       | 3,445  | 25.3    | $ 1,331.27     |     |
+| Booking Type | n      | Pct (%) | Avg Amount ($) |   
+| ------------ | ------ | ------- | -------------- |
+| Refund       | 10,158 | 74.7    | $ 1,145.78     |
+| Cancel       | 3,445  | 25.3    | $ 1,331.27     |
 
 ### Insight
 - **74.7% of Hotel losses are Refunds**, not Cancels — suggesting post-booking adjustments or short-notice reversals rather than pre-trip opt-outs
