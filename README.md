@@ -1,4 +1,5 @@
 # Behind the Drop: Revenue & Business Analytics for Corporate Travel Platform
+Diagnosing a corporate travel platform's booking decline through demand decomposition, loss analysis, revenue operations, and customer segmentation. Built with DuckDB, Python, and Claude Code.
 
 # Table of Content 
   1. [Project Overview](#project-overview)         
