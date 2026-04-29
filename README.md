@@ -11,7 +11,7 @@ Diagnosing a corporate travel platform's booking decline through demand decompos
      
                     
 # Project Overview
-This project is based on a real-world corporate travel transaction dataset. The analysis goes beyond a standard case study to build a structured, end-to-end business investigation into booking volume and revenue decline. It also serves as my first Claude Code project, exploring how AI can augment analytical thinking rather than replace it.
+This project is based on a real-world corporate travel transaction dataset. The analysis goes beyond a standard case study to build a structured, end-to-end business investigation into booking volume and revenue decline. It also serves as my first Claude Code project - part of how I'm building towards to being an AI-enabled analyst.
 
 # Data Source
 Based on a proprietary corporate travel transaction dataset from a real-world case study. The raw data is not included in this repository for confidentiality reasons. The dataset covers January–December 2018 across three booking products — Air, Hotel, and Car — with approximately 300,000 transactional records.
